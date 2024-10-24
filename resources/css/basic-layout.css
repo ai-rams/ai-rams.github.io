@@ -1,0 +1,81 @@
+html{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color:white;
+    background-color: #250c4d;
+}
+img{
+    width: 300px;
+    height: auto;
+    margin: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner{
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+#banner img{
+    margin:30px;
+    width: 20rem;
+}
+
+nav{
+    padding-top: 20px;
+}
+.nav-button{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #1e429b;
+}
+.nav-button:hover{font-family: "IBM Plex Serif", serif;
+    position: relative;
+    background-color: #254bac;
+    padding: 20px;
+    margin: 5px;
+}
+.nav-button:active{
+    background-color: #5270bd;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+p {
+    margin:1rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+footer{
+    background-color: black;
+}
+#footer{
+    padding: 50px;
+}
