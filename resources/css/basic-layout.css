@@ -11,6 +11,12 @@ img{
     margin: 30px;
 }
 
+video{
+    margin: 30px;
+    min-width: 300px;
+    max-width: 500px;
+    height:auto;
+}
 .row {
     display: flex;
     flex-direction: row;
